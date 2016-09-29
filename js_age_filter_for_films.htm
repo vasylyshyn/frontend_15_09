@@ -1,0 +1,52 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+	var a = +prompt("age", "here");
+	//Если возраст от 0 до 6 лет
+	if (a >= 0 && a < 6) {
+		console.log("to young for tv");
+		alert("to young for tv");
+		document.write("Your age " + a + ". You are to young for tv");
+		}
+	//Если возраст от 6 до 12 лет
+	else if (a >= 6 && a < 12) {
+		console.log("cartoons");
+		alert("cartoons");
+		document.write("Your age " + a + ". You can watch cartoons");
+	}
+	//Если возраст от 12 до 18 лет
+	else if (a >= 12 && a < 18) {
+		console.log("serials");
+		alert("serials");
+		document.write("Your age " + a + ". You can watch serials");
+	}
+	//Если возраст больше 18
+	else if (a >= 18) {
+		console.log("only scary movies");
+		alert("only scary movies");
+		document.write("Your age " + a + ". You can watch only scary movies");
+	}
+	//Если возраст меньше 0
+	else if (a < 0) {
+		console.log("wrong age");
+		alert("wrong age");
+		document.write("You write wrong age");
+	}
+	//Если ввели текст
+	else if (a = String) {
+		console.log("Please enter your age by the numbers");
+		alert("Please enter your age by the numbers");
+		document.write("Please enter your age by the numbers");
+	}
+	/* Ниже хотел написать вариант если в поле ничего не введут, но не нашел как правильно называется такой тип переменной*/
+	/*else if (a = Undefined) {
+		console.log("Maybe you write something");
+		alert("Maybe you write something");
+		document.write("Maybe you write something");
+	}*/
+	</script>
+</head>
+<boby>
+</boby>
+</html>
